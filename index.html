@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minutes To Second</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body style="overflow: hidden;" class=" d-flex justify-content-center align-items-center">
+    <div class="container m-5" style="border: 1px solid lightblue; border-radius: 10px; width: 900px; background-color: azure;">
+        <center>
+            <h1 class="bg-secondary mt-1" style="width: 520px; border: 1px solid lightblue; border-radius: 25px;">Conver
+                Minutes To Seconds</h1>
+
+            <div class="row m-5 d-flex justify-content-center align-items-center">
+                <div class="col-10">
+                    <label for="minutes" class="bg-info p-1 text-light" style="border-radius: 5px;">Minutes:</label>
+                    <input type="number" class="form-control m-2" id="num"
+                        style="width: 400px; display: inline; border: 1px solid lightblue; border-radius: 10px;">
+                    <button class="btn btn-success mb-1" id="btn" onclick="getSecond()">Get Seconds</button>
+                </div>
+        </center>
+
+        <div class="row m-5 d-flex justify-content-center align-items-center">
+            <center>
+                <div class="col-12" id="res">
+                    <div class="" style="font-size: 30px;">
+                        <span class="" id="min"></span> Minute(s) has: <span class="pl-5" id="sec"></span> Seconds
+                    </div>
+                </div>
+            </center>
+        </div>
+
+    </div>
+    </div>
+    <script src="minutesConvert.js"></script>
+</body>
+
+</html>
